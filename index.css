@@ -1,9 +1,33 @@
 li {
-    list-style-type: none;
-    width: 33%;
-    padding: 10px 15px;
-    margin-bottom: 5px;
-    border-radius: 25px;
+  list-style-type: none;
+  width: 33%;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  border-radius: 25px;
 }
 
-/* Your code here */
+/* Your code here
+option[data-id="drinks"] {
+  color: aliceblue;
+}
+option[data-id="bakery"] {
+  color: antiquewhite;
+}
+option[data-id="canned"] {
+  color: aqua;
+}
+option[data-id="dairy"] {
+  color: aquamarine;
+}
+option[data-id="frozen"] {
+  color: azure;
+}
+option[data-id="meats"] {
+  color: beige;
+}
+option[data-id="produce"] {
+  color: bisque;
+}
+option[data-id="toiletries"] {
+  color: black;
+} */
