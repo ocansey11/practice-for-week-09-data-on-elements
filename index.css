@@ -6,28 +6,28 @@ li {
   border-radius: 25px;
 }
 
-/* Your code here
-option[data-id="drinks"] {
+/* Your code here */
+optliion[data-type="drinks"] {
   color: aliceblue;
 }
-option[data-id="bakery"] {
+option[data-type="bakery"] {
   color: antiquewhite;
 }
-option[data-id="canned"] {
+li[data-type="canned"] {
   color: aqua;
 }
-option[data-id="dairy"] {
+li[data-type="dairy"] {
   color: aquamarine;
 }
-option[data-id="frozen"] {
+li[data-type="frozen"] {
   color: azure;
 }
-option[data-id="meats"] {
+li[data-type="meats"] {
   color: beige;
 }
-option[data-id="produce"] {
+li[data-type="produce"] {
   color: bisque;
 }
-option[data-id="toiletries"] {
+li[data-type="toiletries"] {
   color: black;
-} */
+}

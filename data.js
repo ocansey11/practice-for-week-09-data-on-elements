@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const type = document.getElementById("type");
   const shoppingList = document.getElementById("shopping-list");
 
-  function addItem() {
+  function addItem(event) {
     const selectCollection = type.selectedOptions;
     const selectedType = selectCollection[0].innerText;
 
@@ -19,6 +19,7 @@ window.addEventListener("DOMContentLoaded", () => {
     shoppingLi.innerHTML = selectedType;
     shoppingLi.setAttribute("data-type", selectCollection[0].value);
     shoppingList.appendChild(shoppingLi);
+    event.preventDefault();
   }
 
   button.addEventListener("click", addItem);
